@@ -8,10 +8,6 @@ with the best content all around the world.
 We will start off with two models: `Posts` and `Comments`, and eventually
 add in `Users` with secure password authentication.
 
-## MVC
-
-- Create a new Rails app and port WDInstagram. Also create user stories for the Blog.
-
 ## Models + Migrations 
 
 - Create ERD for Posts and Comments
