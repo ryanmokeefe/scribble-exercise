@@ -1,6 +1,9 @@
 # Scribble 
 
-is a week-long Ruby on Rails project.
+is a week-long Ruby on Rails writing application.
+
+We will start off with two models: `Posts` and `Comments`, and eventually
+add in `Users` with secure password authentication.
 
 ## MVC
 
