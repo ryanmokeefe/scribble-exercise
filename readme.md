@@ -8,7 +8,9 @@ is a week-long Ruby on Rails project.
 
 ## Models + Migrations 
 
-- Create ERD and build models/migrations for Blog.
+- Create ERD for Posts and Comments
+- Create models for Posts and Comments
+- Create migrations for Posts and Comments
 
 ## Views + Controllers 
 
