@@ -1,0 +1,87 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+*{
+  box-sizing:border-box;
+}
+
+body{
+  max-width:40em;
+  margin:auto;
+  font-family: "Helvetica Neue", sans-serif;
+  line-height: 1.5;
+  padding-bottom:2em;
+}
+
+.logo a{
+  display:block;
+  margin:auto;
+  background-size:100%;
+  width:200px;
+  text-indent:-999em;
+  background-repeat:no-repeat;
+  height:160px;
+  border:none;
+  background-image: asset-url("logo.png");
+}
+
+p{
+  font-family: Georgia, serif;
+}
+
+time{
+  font-size:.8em;
+  font-style:italic;
+  color: #666;
+}
+
+section article{
+  border-bottom: 2px solid #aaa;
+  padding: 2em 0;
+}
+
+section article:last-child{
+  border:none;
+}
+
+label,
+input[type="text"],
+textarea{
+  width:100%;
+  font:inherit;
+  display:block;
+}
+
+.comments{
+  margin-left:2em;
+  padding:2em 0;
+}
+
+.comments > div{
+  background: #eee;
+  padding:1em;
+  margin-top:1em;
+}
+
+a{
+  color: inherit;
+  text-decoration:none;
+  border-bottom:2px solid #666;
+}
+
+a:hover{
+  background-color: #ccc;
+}
